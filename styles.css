@@ -75,7 +75,7 @@ h1 {
 }
 
 button {
-    background-color: #3882f6;
+    background-color: #ec0808;
     border-radius: 10px;
     width: 130px;
     height: 38px;
@@ -84,6 +84,7 @@ button {
     margin-top: 15px;
     font-size: 18px;
     font-weight: bold;
+    border: 1px solid #e5e7eb;
 }
 
 span.red {
@@ -107,12 +108,15 @@ span.white {
     margin-top: 55px;
 }
 
-.cards div {
+
+.cards img {
     width: 168px;
-    height: 171px;
-    border: 2px solid rgb(50, 111, 209);
+    height: 250px;
+    border: 2px solid #ec0808;
     border-radius: 20px;
 }
+
+
 
 .mid-section-info {
     display: flex;
@@ -132,12 +136,23 @@ span.white {
     align-items: center;
 }
 
-.quote {
-    padding: 200px;
+.quote-section {
+    display: flex;
+    height: 200px;
+    background-color: 1px solid red;
+    justify-content: center;
+    align-items: center;
     background-color: #e5e7eb;
     margin-top: 125px;
+}
+
+.quote {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+
 }
 
 .quote p:first-child {
@@ -153,7 +168,9 @@ span.white {
 }
 
 .quotee {
-    align-self: flex-end;
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: 1000;
 }
 
 .info-header p { 
@@ -217,15 +234,6 @@ span.white {
 
 
 
-.sign-up button {
-    border-radius: 10px;
-    width: 130px;
-    height: 38px;
-    color: #f9faf8;
-    font-size: 18px;
-    font-weight: bold;
-    border: 2px solid #f9faf8;
-}
 
 
 
