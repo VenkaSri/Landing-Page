@@ -83,11 +83,11 @@ button {
     color: #f9faf8;
     margin-top: 15px;
     font-size: 18px;
-    font-weight: 1000;
+    font-weight: bold;
 }
 
 .green {
-    background-color: #2a9500;
+    background-color: #6DB866;
     padding: 5px;
     border-radius: 10px;
 }
@@ -118,14 +118,6 @@ button {
     width: 165px;
 }
 
-
-.mid-section,
-.header,
-.quote {
-    border: 2px dotted red;
-}
-
-
 .cards {
     display: flex;
     flex-direction: column;
@@ -147,12 +139,84 @@ button {
 }
 
 #green {
-    background-color: #2a9500;
+    border: 2px solid #6DB866;
     border-radius: 10px;
+    padding: 3px;
 }
 
 .quotee {
     align-self: flex-end;
+}
+
+.info-header p { 
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.sign-up {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    display: flex;
+    background-color: #3882f6;
+    width: 1025px;
+    height: 150px;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text p:first-child {
+    font-size: 36px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+.text p {
+    font-size: 18px;
+    color: #f9faf8
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.copyright a {
+    width: 24px;
+    height: 20px;
+    align-self: center;
+
+}
+
+.copyright p {
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+
+
+.sign-up button {
+    border-radius: 10px;
+    width: 130px;
+    height: 38px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #f9faf8;
 }
 
 
